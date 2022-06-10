@@ -1,0 +1,415 @@
+.header_left{
+    text-align: left;
+    padding:10px;
+    padding-left:10px;
+    float: left;
+}
+.header_right{
+    text-align: right;
+    padding: 10px;
+    padding-right:10px;
+    float: right;
+    font-size: 14px;
+    
+}
+
+.container {
+  position: relative;
+text-align: center;
+color: black;
+}
+
+/* Center*/
+.centered {
+  position: absolute;
+  top: 35%;
+  left: 55%;
+  
+}
+  p2{
+    font-size: 15px;
+    padding-top: 50px;
+    
+  }
+  p1{
+    font-size: 50px;
+  }
+  
+.btn {
+    border: solid; /* Remove borders */
+    color: black; /* Add a text color */
+    padding:14px 28px;
+  }
+  .default {background-color: #e7e7e7;padding: 14px 38px;} /* Gray */
+  .default:hover {background: #ddd;}
+  .default1 {background-color: #e7e7e7;border:none;font-size: 20px;padding: 14px 38px;} /* Gray */
+  .default1:hover {background: #ddd;}
+  
+  .p2{
+    text-align: center;
+    font-size: 47px;
+  }
+ .row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 20%;
+  padding: 150px;
+}
+.block1{
+  margin-top:-7%;
+}
+.content{
+  position: relative;
+  
+}
+.tex1{
+  text-align: left; 
+  position: absolute;
+    top: 65%;
+    left: 10%;
+
+}
+.tex2{
+  text-align: center; 
+  position: absolute;
+    top: 65%;
+    left: 42%;
+}
+.tex3{
+  text-align: right; 
+  position: absolute;
+    top: 65%;
+    left: 75%;
+}
+.tex11{
+  text-align: center;
+  position: absolute;
+    top: 72%;
+    left: 7%;
+    color:rgb(109, 105, 105); 
+  }
+.tex22{
+  text-align: center; 
+  position: absolute;
+    top: 72%;
+    left: 40%;
+    color:rgb(109, 105, 105); 
+  }
+.tex33{
+  text-align: center;
+  position: absolute;
+    top: 72%;
+    left: 73%;
+    color:rgb(109, 105, 105); 
+  }
+
+.default2 {background-color: white;padding: 14px 42px;} /* Gray */
+  .default2:hover {background: #ddd;}
+
+
+
+.block2 {
+  position: relative;
+ margin-top: 5%;
+ margin-bottom: 5%;
+}
+
+.right_image{
+  float: left;
+  width: 27.33%;
+  border-left: 5%;
+  margin-left: 30px;
+}
+.left_image{
+  float: left;
+  width: 40%;
+  margin-top: 20px;
+  margin-left: 70px;
+}
+.cl {
+  padding-top: 180px;
+}
+
+.tex12{
+  text-align: center;
+  position: absolute;
+    margin-top: 18%;
+    left: 53%;
+    color: white;
+    font-size: 15px;
+   
+}
+.tex4{
+  text-align: center; 
+  position: absolute;
+    top: 10%;
+    left: 7%;
+    font-size: 50px;
+    bottom: 20%;
+}
+.block5 {
+  position: relative;
+ margin-top: 15%;
+}
+.tex5{
+  text-align: left; 
+  position: absolute;
+    top: 100%;
+    left: 5%;
+    font-size: 55px;
+    margin-top: 37%;
+}
+.tex6{
+  text-align: left; 
+  position: absolute;
+    top: 110%;
+    left: 5%;
+    font-size: 18px;
+    margin-top: 42%;
+}
+
+.block4 {
+  position: relative;
+}
+* {
+  box-sizing: border-box;
+}
+/* Float four columns side by side */
+.column2 {
+  float: left;
+  width: 32.5%;
+  padding: 18px 20px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row2 {
+margin-right: 10px;
+margin-left: 33px;
+}
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 31px;
+  padding-left:15px;
+  text-align: left;
+  background-color: #f1f1f1;
+  border-radius:10px;
+  margin-top: 240px;
+  margin-right: -5px;
+  margin-left: 10px;
+  color:rgb(182, 174, 174)
+}
+.our{
+  color:black;
+}
+
+.block6{
+ position: relative;
+ margin-top: 8%;
+
+}
+.office{
+  position: relative;
+  width: 100%;
+  height: 450px;
+  top: 25%;
+  
+}
+.off{
+  filter:brightness(60%);
+}
+.tex7{
+  text-align:left; 
+  position: relative;
+    font-size: 15px;
+    color: white;
+    padding-left: 13%;
+    margin-top: -32%;
+    padding-top: 8%;
+}
+.tex71{
+    font-size: 33px;
+}
+.tex711{
+  font-size: 44px;
+}
+
+.tex8{
+  text-align:left; 
+  position: relative;
+    font-size: 15px;
+    color: white;
+    padding-left: 35%;
+    margin-top: -15%;
+    padding-top: 3%;
+
+}
+.tex81{
+  
+  font-size: 33px;
+}
+.tex811{
+  font-size: 44px;
+}
+
+.tex9{
+  text-align: left; 
+  position: relative;
+    font-size: 15px;
+    color: white;
+    padding-left: 55%;
+    margin-top: -15%;
+    padding-top: 3.2%;
+}
+.tex91{
+  
+  font-size: 33px;
+}
+.tex911{
+  font-size: 44px;
+}
+
+.tex10{
+  text-align: left; 
+  position: relative;
+    font-size: 15px;
+    color: white;
+    padding-left: 75%;
+    margin-top: -16%;
+    padding-top: 4%;
+
+}
+.tex01{
+  
+  font-size: 33px;
+}
+.tex011{
+  font-size: 44px;
+}
+.block3{
+  margin-top:-5%;
+}
+.mob{
+  text-align: center; 
+  position: absolute;
+    top: 65%;
+    left: 45%;
+}
+.con{
+  text-align: right; 
+  position: absolute;
+    top: 65%;
+    left: 80%;
+}
+.tex13{
+  position: relative;
+  text-align: center; 
+    background-color: white;
+    font-size: 50px;
+    color:black;
+}
+
+/*txt*/
+
+.back{
+  position: relative;
+  background-color: black;
+  height: 250px;
+}
+.tex14{
+  text-align: center; 
+    font-size: 47px;
+    color:white;
+    /* padding-left: 200px; */
+    padding-top: 4%;
+}
+
+.btn3 {
+  border: solid; /* Remove borders */
+  color: white; /* Add a text color */
+  padding:12px 26px;
+  text-align: center;
+  margin-top: -3%;
+  
+}
+.default4 {background-color:black;padding: 14px 40px;} /* Gray */
+.default4:hover {background:black;}
+
+
+.grid-img {
+  width: 31%;
+  padding-top: 2%;
+  height: 270px;
+
+}
+
+.grid-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.block4{
+  margin-top:10%;
+}
+.girl{
+  border-radius: 50%;
+}
+.tex15{
+  text-align: center;
+  margin-top: 0%;
+  font-size: 18px;
+} 
+
+span.arrow1{
+  font-size:65px ;
+  margin-left: 75px;
+}
+span.arrow2{
+  font-size:65px ;
+  margin-left: 1055px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  margin-left: 610px;
+}
+.dot:nth-child(2n){
+  left: -48%;
+}
+
+.last{
+  
+  background-color: rgb(99, 92, 92);
+  height: 250px;
+}
+.tex16{
+  text-align: center;
+  color: white;
+  padding-top: 40px;
+  font-size: 15px;
+}
+.tex17{
+  color: white;
+  padding-left: 37%;
+  padding-top: 100px;
+  font-size: 15px;
+}
+
+
